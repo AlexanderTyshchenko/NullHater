@@ -1,1 +1,1 @@
-# NullHater
+This library is for those who hate *null* in java 
