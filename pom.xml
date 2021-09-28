@@ -6,7 +6,45 @@
 
     <groupId>pro.tyshchenko</groupId>
     <artifactId>nullhater</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
-    
+    <name>Null wrapper</name>
+    <description>This library is for those who hate null reference in java and java code</description>
+    <url>https://github.com/AlexanderTyshchenko/NullHater</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Alexander Tyshchenko</name>
+            <email>alexander.tyshchenko@gmail.com</email>
+            <organization>Tyshchenko Pro</organization>
+            <organizationUrl>http://www.tyshchenko.pro</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/AlexanderTyshchenko/NullHater.git</connection>
+        <url>https://github.com/AlexanderTyshchenko/NullHater/tree/main</url>
+    </scm>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
